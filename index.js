@@ -4,7 +4,7 @@ var os = require("os");
 var hostname = os.hostname();
 
 app.get('/', function (req, res) {
-   res.send('Hello Octank, this is coming from server'+hostname);
+   res.send('Server Name'+hostname);
 })
 
 var server = app.listen(8081, function () {
