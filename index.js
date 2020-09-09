@@ -5,6 +5,7 @@ var hostname = os.hostname();
 
 app.get('/', function (req, res) {
    res.send('Server Name'+hostname);
+   req.
 })
 
 var server = app.listen(8081, function () {
