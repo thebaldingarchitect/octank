@@ -1,2 +1,3 @@
 this is a sample nodejs app to be used for a demo for octank.
-no rights reserved and no rights are given.
+it will require node to be installed and pls do a npm install after initial download.
+
